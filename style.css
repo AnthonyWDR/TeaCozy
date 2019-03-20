@@ -7,6 +7,7 @@
   text-align: center;
 }
 header {
+  top: 0px;
   background-color: black;
   height: 69px;
   display: flex;
@@ -54,4 +55,20 @@ justify-content: center;
 }
 .cheekymissioncontent h4 {
 
+}
+.cheekysecond {
+  position: relative;
+  top:69px;
+  display: flex;
+  border: 1px solid red;
+}
+.cheekyteatype {
+  width: 1000px;
+}
+.cheekysmolimages img {
+  height: 200px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

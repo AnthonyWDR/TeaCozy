@@ -50,17 +50,12 @@ justify-content: center;
 .cheekyimagecontent {
   width: 1200px;
 }
-.cheekymissioncontent h2 {
-
-}
-.cheekymissioncontent h4 {
-
-}
 .cheekysecond {
   position: relative;
   top:69px;
   display: flex;
   border: 1px solid red;
+  justify-content: center;
 }
 .cheekyteatype {
   width: 1000px;
@@ -69,7 +64,5 @@ justify-content: center;
 .cheekysmolimages img {
   height: 200px;
   width: 300px;
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: flex;
 }

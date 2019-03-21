@@ -91,4 +91,9 @@ justify-content: center;
 }
 .container {
   display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.firstcontainer, .secondcontainer, .thirdcontainer {
+  width: 300px;
 }

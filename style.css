@@ -77,37 +77,13 @@ justify-content: center;
   height: 200px;
   width: 300px;
 }
+
 .cheekythird {
   position: relative;
   top: 69px;
-  width: 100%;
   display: flex;
   justify-content: center;
-  opacity: 1;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
-}
-
-
-}
-.cheekylocationsquares {
-  width: 300px;
-  border: 1px solid pink;
-}
-.cheekylocationdox {
-  display: flex;
-  justify-content: center;
-  align-items: ;
-  border: 1px solid lime;
-  padding-top: 0px;
-  margin-top: 0px;
-
-}
-.cheekylocation {
-  background-color: black;
-  padding:0px 1200px;
-}
-.content {
-  border: 1px solid ;
 }

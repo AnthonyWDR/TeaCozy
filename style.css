@@ -61,8 +61,44 @@ justify-content: center;
   width: 1000px;
   border: 1px solid green;
 }
-.cheekysmolimages img {
+.cheekysmolimages {
   border: 1px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cheek h4 {
+  padding: 5px;
+  margin: 0px;
+}
+.cheek img {
+  margin: 0px;
+  margin:10px 10px;
   height: 200px;
   width: 300px;
+}
+.cheekythird {
+  position: relative;
+  top: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cheekybackimage {
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+height: 500px;
+width: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cheekylocationsquares {
+  width: 300px;
+  border: 1px solid pink;
+}
+.cheekylocationdox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

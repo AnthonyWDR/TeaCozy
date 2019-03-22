@@ -7,6 +7,7 @@
 body {
   background-color: black;
   opacity: 0.9;
+  margin: 0;
 }
 
 header {
@@ -57,15 +58,12 @@ justify-content: center;
   position: relative;
   top:69px;
   display: flex;
-  border: 1px solid red;
   justify-content: center;
 }
 .cheekyteatype {
   width: 1000px;
-  border: 1px solid green;
 }
 .cheekysmolimages {
-  border: 1px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -91,6 +89,7 @@ justify-content: center;
   width: 1200px;
   margin: auto;
   flex-direction: column;
+  background-position-y: 20%
 }
 .cheekythird h2 {
   margin-bottom: 0px;

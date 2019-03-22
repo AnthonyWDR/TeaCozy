@@ -95,10 +95,11 @@ justify-content: center;
 .container {
   display: flex;
   justify-content: center;
-  margin: 15px 10px;
+  margin: 15px;
 }
 .firstcontainer, .secondcontainer, .thirdcontainer {
   width: 300px;
+  margin: 0px 10px;
 }
 .cheekyimagecontent, .firstcontainer, .secondcontainer, .thirdcontainer {
 background-color: black

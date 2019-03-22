@@ -2,10 +2,13 @@
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
-  opacity: 0.9;
   text-align: center;
 }
+body {
+  background-color: black;
+  opacity: 0.9;
+}
+
 header {
   top: 0px;
   background-color: black;
@@ -92,8 +95,11 @@ justify-content: center;
 .container {
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+  margin: 15px 10px;
 }
 .firstcontainer, .secondcontainer, .thirdcontainer {
   width: 300px;
+}
+.cheekyimagecontent, .firstcontainer, .secondcontainer, .thirdcontainer {
+background-color: black
 }

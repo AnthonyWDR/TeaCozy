@@ -85,12 +85,16 @@ justify-content: center;
   position: relative;
   top: 69px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
   margin: auto;
   flex-direction: column;
+}
+.cheekythird h2 {
+  margin-bottom: 0px;
+  margin-top: 75px;
 }
 .container {
   display: flex;
@@ -99,8 +103,8 @@ justify-content: center;
 }
 .firstcontainer, .secondcontainer, .thirdcontainer {
   width: 300px;
-  margin: 0px 10px;
+  margin: 0px 20px;
 }
 .cheekyimagecontent, .firstcontainer, .secondcontainer, .thirdcontainer {
-background-color: black
+background-color: black;
 }

@@ -95,6 +95,7 @@ justify-content: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
+  background-size: cover; 
   margin: auto;
   flex-direction: column;
   background-position-y: 20%;
@@ -109,11 +110,11 @@ justify-content: center;
   margin: 15px;
   line-height: 1;
 }
-.firstcontainer, .secondcontainer, .thirdcontainer {
+.cheekylocationcard {
   width: 300px;
   margin: 0px 20px;
 }
-.cheekyimagecontent, .firstcontainer, .secondcontainer, .thirdcontainer {
+.cheekyimagecontent, .cheekylocationcard {
 background-color: black;
 }
 .cheekyfourth {
